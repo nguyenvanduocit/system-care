@@ -52,3 +52,21 @@ Create file `~/Library/LaunchAgents/self.system-care.plist`
   </dict>
 </plist>
 ```
+
+### Load
+
+```
+launchctl load ~/Library/LaunchAgents/self.system-care.plist
+```
+
+### Start
+
+```
+launchctl start com.system-care
+```
+
+### Check
+
+```
+launchctl list | grep system-care
+```
