@@ -1,6 +1,8 @@
 # system-care
 
-## Get
+Just another simple program that monitor system's stats and push to InfluxDB server.
+
+## Installation
 
 ```
 go get github.com/nguyenvanduocit/system-care
@@ -17,13 +19,13 @@ bucket:
 server: 
 ```
 
-run
+## Push data
 
 ```
 system-care push
 ```
 
-## LaunchAgents
+## Auto push data and start with system - LaunchAgents
 
 Create file `~/Library/LaunchAgents/self.system-care.plist`
 
